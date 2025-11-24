@@ -1,8 +1,12 @@
 body {
   background-color: #0a192f;
   color: var(--color);
-  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+:root {
+  --color: rgba(190, 215, 231, 0.855);
+  --sec-color: #64ffda;
 }
 
 canvas.p5Canvas {
@@ -16,10 +20,6 @@ canvas.p5Canvas {
 
 }
 
-:root {
-  --color: rgba(255, 255, 255, 0.679);
-  --sec-color: #64ffda;
-}
 
 /* navigation */
 .nav {
@@ -42,7 +42,7 @@ canvas.p5Canvas {
   text-decoration: none;
 }
 
-.left .name {
+.left #name {
   font-size: 16px;
 }
 
@@ -51,6 +51,10 @@ canvas.p5Canvas {
   color: rgba(255, 255, 255, 0.653);
   padding: 5px;
   text-decoration: none;
+}
+
+.left .general:hover {
+  color: var(--sec-color);
 }
 
 /* Introduction container */
@@ -66,7 +70,7 @@ canvas.p5Canvas {
 }
 
 .introduction {
-  width: 500px;
+  max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,12 +83,10 @@ canvas.p5Canvas {
 }
 
 .introduction p {
-  min-width: 800px;
   font-size: 18px;
   line-height: 1.8;
-  margin-bottom: 50px;
+  padding-bottom: 40px;
   letter-spacing: 1px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -100,4 +102,45 @@ canvas.p5Canvas {
 
 .mail a:hover {
   background-color: #64ffdb18;
+}
+
+.about {
+  padding-top: 90px;
+  display: flex;
+
+}
+
+.about_me {
+  max-width: 680px;
+}
+
+.about h1 {
+  font-size: 35px;
+}
+
+.about_me ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.about_me ul li {
+  list-style: "> ";
+  color: var(--sec-color);
+}
+
+.about .photo {
+  width: 300px;
+
+}
+
+.photo img{
+  width: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 95px 35px;
+  transition: all 0.3s ease;
+}
+.photo img:hover{
+ transform: scale(1.03)
 }
