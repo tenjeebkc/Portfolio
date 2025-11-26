@@ -72,23 +72,25 @@ canvas.p5Canvas {
   position: relative;
   z-index: 1;
   padding-top: 390px;
-
-
 }
 
-.introduction {
+.introduction,
+.heading {
   max-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 20px;
-
+  padding-bottom: 30px;
+}
+.heading{
+  padding-bottom: 0;
 }
 
-
-.introduction h1 {
+.heading h1 {
   margin-bottom: 0;
+  margin-top: 30px;
+
   font-size: 70px;
   font-weight: 500;
   /* Animation part */
@@ -102,13 +104,25 @@ canvas.p5Canvas {
 }
 
 @keyframes typing {
-  from { width: 0; }
-  to { width: 85%; }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: var(--sec-color); }
-  100% { border-color: transparent; }
+
+  from,
+  to {
+    border-color: var(--sec-color);
+  }
+
+  100% {
+    border-color: transparent;
+  }
 }
 
 
@@ -138,6 +152,7 @@ canvas.p5Canvas {
 #about {
   padding-top: 90px;
   display: flex;
+  padding-bottom: 55px;
 
 }
 
@@ -168,6 +183,33 @@ canvas.p5Canvas {
   color: var(--sec-color);
 }
 
+/* Fade animation in the li */
+li:nth-child(1) {
+  transition-delay: .4s;
+}
+
+li:nth-child(2) {
+  transition-delay: .5s;
+}
+
+li:nth-child(3) {
+  transition-delay: .6s;
+}
+
+li:nth-child(4) {
+  transition-delay: .7s;
+}
+
+li.fade:nth-child(5) {
+  transition-delay: .8s;
+}
+
+li:nth-child(6) {
+  transition-delay: .9s;
+}
+
+
+
 .about .photo {
   width: 300px;
 
@@ -188,13 +230,12 @@ canvas.p5Canvas {
 /* experience */
 #exp {
   padding-right: 36px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 
 }
 
 .experience {
   max-width: 980px;
-  padding-top: 45px;
 
 }
 
@@ -214,7 +255,7 @@ canvas.p5Canvas {
 
 /* projects */
 #projects {
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 #projects h1 {
@@ -236,7 +277,6 @@ canvas.p5Canvas {
   border-radius: 10px;
   background-color: #39588629;
   transition: 0.3s;
-
 }
 
 .list h3 {
@@ -251,6 +291,28 @@ canvas.p5Canvas {
 .list:hover {
   transform: translateY(-8px);
   background-color: #4b6b9c46;
+}
+/* Fade animation in the li */
+ .my-projects .one{
+  transition-delay: .3s;
+  transition: 1s;
+
+
+
+}
+
+.my-projects .two{
+  transition-delay: .5s;
+  transition: 2s;
+
+
+}
+
+.my-projects .three{
+  transition-delay: .7s;
+  transition: 3s;
+
+
 }
 
 footer {

@@ -12,7 +12,7 @@
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
   <script src="tree.js"></script>
-
+  
   <!-- navigation part -->
   <div class="nav">
     <div class="left">
@@ -28,48 +28,50 @@
       <a href="">LinkeIn</a>
     </div>
   </div>
-
+  
   <!-- Introduction -->
   <div id="container">
-    <div class="introduction fade-up">
+    <div class="heading">
       <h1>hi,
         <span style="color: #64ffda ;">tenjeeb</span> here.
       </h1>
-
+       </div>
+      <div class="introduction fade">
+   
       <p>I’m an aspiring web developer who loves creating clean, accessible interfaces and exploring how great user
         experiences are built.
         I’m continuously working on projects to sharpen my skills and move toward full-stack development.</p>
         <div class="mail">
           <a href="mailto:tenjeeb15@gmail.com">Say hi!</a>
         </div>
-    </div>
-
-
-    <!-- About me -->
-    <div id="about">
-      <div class="about_me fade-up">
-        <h1>/ about me &nbsp<span class="underline">--------------------</span></h1>
-        <p class="para">I have completed my bachelor's in <b>Computer Networking and IT Security</b> from <b>Islington College</b>,
-          and I am currently exploring web devlopement. I am
-          devloping my skills in HTML, CSS, and JavaScript, and experimenting with modern frameworks
+      </div>
+      
+      
+      <!-- About me -->
+      <div id="about">
+        <div class="about_me fade">
+          <h1>/ about me &nbsp<span class="underline">--------------------</span></h1>
+          <p class="para">I have completed my bachelor's in <b>Computer Networking and IT Security</b> from <b>Islington College</b>,
+            and I am currently exploring web devlopement. I am
+            devloping my skills in HTML, CSS, and JavaScript, and experimenting with modern frameworks
           as I continue to grow.</p>
         <p class="para">Here are some of my skills:</p>
-        <ul class="para">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Linux</li>
-          <li>Cisco Networking</li>
+        <ul class="para fade">
+          <li class="fade" >HTML</li>
+          <li class="fade">CSS</li>
+          <li class="fade" >JavaScript</li>
+          <li class="fade" >Python</li>
+          <li class="fade" >Linux</li>
+          <li class="fade" >Cisco Networking</li>
         </ul>
       </div>
-      <div class="photo">
+      <div class="photo fade">
         <img src="photo.jpg" alt="">
       </div>
     </div>
     <!-- Experience -->
     <div id="exp">
-      <div class="experience">
+      <div class="experience fade">
         <h1>/ experience &nbsp<span class="underline">--------------------</span></h1>
         <h3>Moru Digital Wallet :</h3>
         <p class="para">During my 3 months <b>Cybersecurity internship</b> at Moru Digital Wallet, I contributed to strengthening the
@@ -78,45 +80,46 @@
           supported the development of new platform features through hands-on work in various devlopment projects.
           Additionally, I regularly delivered internal sessions on maintaining cyber hygiene to promote secure practices
           accross the office. </p>
+        </div>
       </div>
-    </div>
-
-    <!-- Projects -->
-    <div id="projects">
-      <h1>/ projects &nbsp<span class="underline">--------------------</span></h1>
-      <div class="my-projects">
-        <div class="list">
-          <h3>Vulnerable Code Scanner</h3>
-          <p class="para">A web-based vulnerability scanning tool that scans Python code for OWASP Top 10
-            vulnerabilities & provides secure coding example.</p>
-          <p class="para">HTML, CSS, JavaScript, Python (Flask), SQlite</p>
-        </div>
-        <div class="list">
-          <h3>Spotify Clone</h3>
-          <p class="para">A web-based, fully responsive music player that replicates Spotify’s interface and provides
-            custom playback controls. </p>
-          <p class="para">HTML, CSS, JavaScript</p>
-        </div>
-        <div class="list">
-          <h3>Personal AI Voice Assistance</h3>
-          <p class="para">A Python-based AI voice assistant using speech recognition, text-to-speech, and a
-            local Ollama LLM to answer questions, fetch weather updates, and open apps and websites.</p>
-          <p class="para">Python, Ollama (llama3.2:3b), Weather API</p>
-        </div>
-
-      </div>
-    </div>
-  </div>
+      
+      <!-- Projects -->
+      <div id="projects fade">
+        <h1>/ projects &nbsp<span class="underline">--------------------</span></h1>
+        <div class="my-projects fade">
+          <div class="list one fade">
+            <h3>Vulnerable Code Scanner</h3>
+            <p class="para">A web-based vulnerability scanning tool that scans Python code for OWASP Top 10
+              vulnerabilities & provides secure coding example.</p>
+              <p class="para">HTML, CSS, JavaScript, Python (Flask), SQlite</p>
+            </div>
+            <div class="list two fade">
+              <h3>Spotify Clone</h3>
+              <p class="para">A web-based, fully responsive music player that replicates Spotify’s interface and provides
+                custom playback controls. </p>
+                <p class="para">HTML, CSS, JavaScript</p>
+              </div>
+              <div class="list three fade">
+                <h3 >Personal AI Voice Assistance</h3>
+                <p class="para">A Python-based AI voice assistant using speech recognition, text-to-speech, and a
+                  local Ollama LLM to answer questions, fetch weather updates, and open apps and websites.</p>
+                  <p class="para">Python, Ollama (llama3.2:3b), Weather API</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
   
   <footer>
-    <div class="footer">
+    <div class="footer fade">
       <p>Built by Tenjeeb K. C.</p>
       <p>All rights reserved. &copy; 2025</p>
     </div>
   </footer>
-
-
-
+  
+  
+  
+  <script src="script.js"></script>
 </body>
 
 </html>
