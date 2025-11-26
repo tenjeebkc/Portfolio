@@ -276,7 +276,7 @@ li:nth-child(6) {
   margin: 5px;
   border-radius: 10px;
   background-color: #39588629;
-  transition: 0.3s;
+
 }
 
 .list h3 {
@@ -288,7 +288,8 @@ li:nth-child(6) {
   font-size: 15px;
 }
 
-.list:hover {
+.my-projects .list:hover {
+  transition: all .2s;
   transform: translateY(-8px);
   background-color: #4b6b9c46;
 }
