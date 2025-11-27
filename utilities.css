@@ -17,37 +17,38 @@
   opacity: 0;
   transform: translateY(50px);
   transition: 1s ease;
-  transition-delay: .3s;
+  transition-delay: .2s;
 }
 
-  .fade.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-  .projectfade{
+/* Project fade animation */
+.projectfade {
   opacity: 0;
   transform: translateY(50px);
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
 
-  }
-  .projectfade.show{
-    opacity: 1;
-    transform: translateY(0);
-  }
+}
+
+.projectfade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 .invert {
   filter: invert(100%);
- 
+
 }
 
-.invert:hover{
+.invert:hover {
   filter: invert(74%) sepia(92%) saturate(460%) hue-rotate(110deg) brightness(105%) contrast(101%);
-  
+
 }
 
-.second-invert{
+.second-invert {
   filter: invert(74%) sepia(92%) saturate(460%) hue-rotate(110deg) brightness(105%) contrast(101%);
 }
-

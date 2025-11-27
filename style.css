@@ -138,6 +138,9 @@ canvas.p5Canvas {
   text-align: center;
 }
 
+.mail{
+    position: relative;
+}
 
 .mail a {
   padding: 20px 25px;
@@ -149,6 +152,7 @@ canvas.p5Canvas {
   border-radius: 5px;
   padding-left: 55px;
   color: var(--sec-color);
+
 }
 
 .mail a:hover {
@@ -156,7 +160,7 @@ canvas.p5Canvas {
 }
 .mail img{
   position: absolute;
-  left: 253px;
+  left: 24px;
   width: 26px;
 }
 
