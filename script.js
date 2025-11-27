@@ -10,4 +10,5 @@ const observer = new IntersectionObserver(entries => {
 });
 
 document.querySelectorAll(".fade").forEach(e => observer.observe(e));
+document.querySelectorAll(".projectfade").forEach(e => observer.observe(e));
 

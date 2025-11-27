@@ -30,7 +30,7 @@ canvas.p5Canvas {
   justify-content: space-around;
   gap: 250px;
   padding: 20px 0;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   position: fixed;
   z-index: 10;
@@ -49,14 +49,18 @@ canvas.p5Canvas {
 }
 
 .left #name {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 /* right side */
 .right a {
   color: rgba(255, 255, 255, 0.653);
-  padding: 5px;
+  padding: 6px;
   text-decoration: none;
+}
+
+.right a img{
+  width: 20px;
 }
 
 .left .general:hover {
@@ -134,18 +138,26 @@ canvas.p5Canvas {
   text-align: center;
 }
 
+
 .mail a {
-  padding: 20px 30px;
+  padding: 20px 25px;
   border: 2px solid var(--sec-color);
   color: var(--color);
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
   border-radius: 5px;
+  padding-left: 55px;
+  color: var(--sec-color);
 }
 
 .mail a:hover {
   background-color: #64ffdb18;
+}
+.mail img{
+  position: absolute;
+  left: 253px;
+  width: 26px;
 }
 
 /* about */
@@ -256,6 +268,7 @@ li:nth-child(6) {
 /* projects */
 #projects {
   padding-top: 25px;
+
 }
 
 #projects h1 {
@@ -268,6 +281,7 @@ li:nth-child(6) {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1020px;
   padding: 10px 0;
+  
 
 }
 
@@ -290,43 +304,22 @@ li:nth-child(6) {
 
 .my-projects .list:hover {
   transition: all .2s;
-  transform: translateY(-8px);
-  background-color: #4b6b9c46;
-}
-/* Fade animation in the li */
- .my-projects .one{
-  transition-delay: .3s;
-  transition: 1s;
-
-
-
+  transform: translateY(-5px);
+  background-color: #5675a346;
 }
 
-.my-projects .two{
-  transition-delay: .5s;
-  transition: 2s;
-
-
-}
-
-.my-projects .three{
-  transition-delay: .7s;
-  transition: 3s;
-
-
-}
 
 footer {
   display: flex;
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .footer p {
-  color: rgba(231, 228, 237, 0.482);
+  color: rgba(231, 228, 237, 0.675);
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 400;
