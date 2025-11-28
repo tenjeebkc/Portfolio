@@ -16,7 +16,7 @@ canvas.p5Canvas {
   width: 400px !important;
   height: 400px !important;
   position: absolute;
-  top: 30px;
+  top: 0;
   left: 0;
   right: 0;
   margin: auto;
@@ -60,7 +60,7 @@ canvas.p5Canvas {
 }
 
 .right a img{
-  width: 23px;
+  width: 22px;
 }
 
 .left .general:hover {
@@ -75,7 +75,7 @@ canvas.p5Canvas {
   flex-direction: column;
   position: relative;
   z-index: 1;
-  padding-top: 390px;
+  padding-top: 350px;
 
 }
 
@@ -90,14 +90,12 @@ canvas.p5Canvas {
 }
 .heading{
   padding-bottom: 0;
-  margin-top: 40px;
 }
 
 .heading h1 {
-  margin-bottom: 0;
-  margin-top: 30px;
+  margin-bottom: -5px;
 
-  font-size: 72px;
+  font-size: 70px;
   font-weight: 500;
   /* Animation part */
   overflow: hidden;
@@ -133,9 +131,8 @@ canvas.p5Canvas {
 
 
 .introduction p {
-
   line-height: 1.8;
-  padding-bottom: 45px;
+  padding-bottom: 40px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -153,7 +150,7 @@ canvas.p5Canvas {
   border-radius: 5px;
   padding-left: 55px;
   color: var(--sec-color);
-  font-size: 20px;
+  font-size: 19px;
 
 }
 
@@ -170,7 +167,6 @@ canvas.p5Canvas {
 #about {
   padding-top: 90px;
   display: flex
-
 }
 
 .about_me {
@@ -195,6 +191,7 @@ canvas.p5Canvas {
 .about_me ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-left: 17px;
 
 }
 
@@ -303,24 +300,23 @@ li:nth-child(6) {
 }
 
 .list h3 {
-  font-size: 23px;
+  font-size: 21px;
   color: var(--sec-color);
   margin-bottom: 0;
 }
 
 .list .para-1{
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.8;
   padding-bottom: 5px;
   letter-spacing: 1px;
 
 }
 .list .para-2{
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.8;
   padding-bottom: 5px;
   letter-spacing: 1px;
-
 }
 
 
@@ -353,16 +349,18 @@ footer {
 }
 
 
+
+
+
+
+/* ---- Media query -----*/
+
 @media (max-width: 1200px) {
 
   #container{
     margin: 0 30px;
   }
-  #container p{
-      font-size: 14px;
-  }
-
-
+ 
   #container li{
     font-size: 14px;
   }
@@ -390,14 +388,17 @@ footer {
 }
 .heading{
   max-width: 400px;
+  margin-top: 70px;
 
 }
 .heading h1{
-  font-size: 40px;
-  margin-top: -40px;
+font-size: 38px;
+ margin-top: -120px;
 }
 .introduction p{
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  margin-top: -15px;
+  font-size: 14px;
 }
 
 .introduction{
@@ -405,7 +406,7 @@ footer {
 }
 
 .mail a {
-    padding: 12px 12px;
+    padding: 12px 20px;
     padding-left: 46px;
     font-size: 17px;
 }
@@ -416,14 +417,18 @@ footer {
 }
 
 .about_me h1 {
-    font-size: 30px;
-    margin-bottom: 0;
-
+    font-size: 28px;
+    
+}
+.about_me .para {
+    font-size: 14px;
+    
 }
 
 
 #about{
   max-width: 595px;
+  padding-top: 40px;
 }
 
 .photo img {
@@ -440,15 +445,16 @@ footer {
   padding-top: 50px;
 }
 .experience h1{
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .experience h3{
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .experience p {
     padding-right: 10px;
+    font-size: 14px;
 }
 
 #projects{
@@ -456,7 +462,7 @@ footer {
 
 }
 #projects h1{
-  font-size: 30px;
+  font-size: 28px;
 }
 
 
@@ -469,8 +475,15 @@ footer {
 .my-projects .list{
   margin: 10px 10px;
 }
-.my-projects h3{
-  font-size: 21px;
+.list h3{
+  font-size: 17px;
+}
+
+.list .para-1{
+  font-size: 14px;
+}
+.list .para-2{
+  font-size: 13px;
 }
 
 
