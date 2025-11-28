@@ -16,7 +16,7 @@ canvas.p5Canvas {
   width: 400px !important;
   height: 400px !important;
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
   right: 0;
   margin: auto;
@@ -49,7 +49,7 @@ canvas.p5Canvas {
 }
 
 .left #name {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 /* right side */
@@ -60,7 +60,7 @@ canvas.p5Canvas {
 }
 
 .right a img{
-  width: 20px;
+  width: 23px;
 }
 
 .left .general:hover {
@@ -90,13 +90,14 @@ canvas.p5Canvas {
 }
 .heading{
   padding-bottom: 0;
+  margin-top: 40px;
 }
 
 .heading h1 {
   margin-bottom: 0;
   margin-top: 30px;
 
-  font-size: 70px;
+  font-size: 72px;
   font-weight: 500;
   /* Animation part */
   overflow: hidden;
@@ -132,9 +133,9 @@ canvas.p5Canvas {
 
 
 .introduction p {
-  font-size: 18px;
+
   line-height: 1.8;
-  padding-bottom: 40px;
+  padding-bottom: 45px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -148,11 +149,11 @@ canvas.p5Canvas {
   border: 2px solid var(--sec-color);
   color: var(--color);
   text-decoration: none;
-  font-size: 18px;
   font-weight: bold;
   border-radius: 5px;
   padding-left: 55px;
   color: var(--sec-color);
+  font-size: 20px;
 
 }
 
@@ -168,18 +169,20 @@ canvas.p5Canvas {
 /* about */
 #about {
   padding-top: 90px;
-  display: flex;
-  padding-bottom: 55px;
+  display: flex
 
 }
 
 .about_me {
-  max-width: 680px;
+  max-width: 752px;
 }
 
 .about_me h1 {
-  font-size: 35px;
+  font-size: 38px;
   padding: 10px 0;
+}
+.about_me p {
+  padding-right: 15px;
 }
 
 
@@ -233,7 +236,7 @@ li:nth-child(6) {
 }
 
 .photo img {
-  width: 280px;
+  width: 300px;
   object-fit: contain;
   border-radius: 10px;
   margin: 120px 30px 0px 15px;
@@ -247,23 +250,24 @@ li:nth-child(6) {
 /* experience */
 #exp {
   padding-right: 36px;
-  padding-bottom: 50px;
+  padding-top: 45px;
 
 }
 
 .experience {
-  max-width: 980px;
+  max-width: 1065px;
 
 }
 
 .experience h1 {
-  font-size: 35px;
+  font-size: 38px;
   padding: 12px 0;
 }
 
 .experience h3 {
   color: var(--sec-color);
   margin-bottom: -5px;
+  font-size: 20px;
 }
 
 .experience p {
@@ -272,19 +276,19 @@ li:nth-child(6) {
 
 /* projects */
 #projects {
-  padding-top: 25px;
+  padding-top: 35px;
 
 }
 
 #projects h1 {
-  font-size: 35px;
+  font-size: 38px;
   padding: 10px 0;
 }
 
 .my-projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1020px;
+  max-width: 1100px;
   padding: 10px 0;
   
 
@@ -293,19 +297,36 @@ li:nth-child(6) {
 .my-projects .list {
   padding: 5px 30px;
   margin: 5px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #39588629;
 
 }
 
 .list h3 {
-  font-size: 20px;
+  font-size: 23px;
   color: var(--sec-color);
+  margin-bottom: 0;
 }
 
-.list p {
-  font-size: 15px;
+.list .para-1{
+  font-size: 19px;
+  line-height: 1.8;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+
 }
+.list .para-2{
+  font-size: 16px;
+  line-height: 1.8;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+
 
 .my-projects .list:hover {
   transition: all .2s;
@@ -334,19 +355,16 @@ footer {
 
 @media (max-width: 1200px) {
 
+  #container{
+    margin: 0 30px;
+  }
   #container p{
       font-size: 14px;
-    
   }
+
 
   #container li{
     font-size: 14px;
-  }
-
-  
-
-  #container h1{
-    font-size: 30px;
   }
 
   #container{
@@ -375,7 +393,7 @@ footer {
 
 }
 .heading h1{
-  font-size: 45px;
+  font-size: 40px;
   margin-top: -40px;
 }
 .introduction p{
@@ -383,12 +401,13 @@ footer {
 }
 
 .introduction{
-  max-width: 450px;
+  max-width: 390px;
 }
 
 .mail a {
     padding: 12px 12px;
     padding-left: 46px;
+    font-size: 17px;
 }
 
 .mail img {
@@ -404,7 +423,7 @@ footer {
 
 
 #about{
-  max-width: 600px;
+  max-width: 595px;
 }
 
 .photo img {
@@ -418,6 +437,14 @@ footer {
 #exp{
   max-width: 600px;
   padding: 0;
+  padding-top: 50px;
+}
+.experience h1{
+  font-size: 30px;
+}
+
+.experience h3{
+  font-size: 18px;
 }
 
 .experience p {
@@ -426,7 +453,12 @@ footer {
 
 #projects{
   max-width: 600px;
+
 }
+#projects h1{
+  font-size: 30px;
+}
+
 
 .my-projects{
   display: flex;
@@ -437,5 +469,9 @@ footer {
 .my-projects .list{
   margin: 10px 10px;
 }
+.my-projects h3{
+  font-size: 21px;
+}
+
 
 }
