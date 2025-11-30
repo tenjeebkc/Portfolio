@@ -67,7 +67,7 @@ img {
 }
 
 .right a img:hover{
-  transform: scale(1.10);
+  transform: scale(1.05);
 }
 
 .left .general:hover {
@@ -318,7 +318,7 @@ li:nth-child(6) {
 }
 
 .code:hover{
-  transform: scale(1.10);
+  transform: scale(1.05);
 }
 
 
