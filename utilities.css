@@ -41,11 +41,10 @@
 
 .invert {
   filter: invert(100%);
-
 }
 
 .invert:hover {
-  filter: invert(74%) sepia(92%) saturate(460%) hue-rotate(110deg) brightness(105%) contrast(101%);
+  filter: invert(74%) sepia(92%) saturate(460%) hue-rotate(110deg) brightness(105%) contrast(101%) ;
 
 }
 
