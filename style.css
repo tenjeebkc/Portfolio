@@ -41,7 +41,6 @@ img {
   left: 0;
   right: 0;
   margin-top: -10px;
-
 }
 
 /* left side */
@@ -119,7 +118,7 @@ img {
   }
 
   to {
-    width: 99%;
+    width: 100%;
   }
 }
 
@@ -134,7 +133,6 @@ img {
     border-color: transparent;
   }
 }
-
 
 .introduction p {
   line-height: 1.8;
@@ -157,7 +155,6 @@ img {
   padding-left: 55px;
   color: var(--sec-color);
   font-size: 19px;
-
 }
 
 .mail a:hover {
@@ -233,8 +230,6 @@ li:nth-child(6) {
   transition-delay: .9s;
 }
 
-
-
 .about .photo {
   width: 300px;
 
@@ -261,7 +256,6 @@ li:nth-child(6) {
 
 .experience {
   max-width: 1065px;
-
 }
 
 .experience h1 {
@@ -295,8 +289,6 @@ li:nth-child(6) {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1100px;
   padding: 10px 0;
-
-
 }
 
 .my-projects .list {
@@ -321,10 +313,6 @@ li:nth-child(6) {
   transform: scale(1.05);
 }
 
-
-
-
-
 .list h3 {
   font-size: 21px;
   color: var(--sec-color);
@@ -346,14 +334,11 @@ li:nth-child(6) {
   letter-spacing: 1px;
 }
 
-
 .my-projects .list:hover {
   transition: all .2s;
   transform: translateY(-5px);
   background-color: #5675a346;
 }
-
-
 
 footer {
   display: flex;
@@ -371,10 +356,6 @@ footer {
   font-weight: 400;
   margin: 5px;
 }
-
-
-
-
 
 
 /* ---- Media query -----*/
@@ -413,7 +394,7 @@ footer {
   }
 
   .heading {
-    max-width: 282px;
+    max-width: 285px;
     margin-top: 70px;
 
   }
@@ -421,7 +402,7 @@ footer {
   .heading h1 {
     font-size: 38px;
     margin-top: -120px;
-    padding-left: 21px;
+    padding-left: 20px;
   }
 
   .introduction p {
@@ -454,7 +435,6 @@ footer {
     font-size: 14px;
 
   }
-
 
   #about {
     max-width: 595px;
@@ -519,6 +499,5 @@ footer {
   .list .para-2 {
     font-size: 13px;
   }
-
 
 }
