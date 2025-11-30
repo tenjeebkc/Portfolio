@@ -59,7 +59,7 @@ canvas.p5Canvas {
   text-decoration: none;
 }
 
-.right a img{
+.right a img {
   width: 22px;
 }
 
@@ -88,20 +88,19 @@ canvas.p5Canvas {
   flex-direction: column;
   padding-bottom: 30px;
 }
-.heading{
+
+.heading {
   padding-bottom: 0;
 }
 
 .heading h1 {
   margin-bottom: -5px;
-
   font-size: 70px;
   font-weight: 500;
   /* Animation part */
   overflow: hidden;
   border-right: 4px solid var(--sec-color);
   white-space: nowrap;
-  width: 0;
   animation:
     typing 2.5s steps(25, end) forwards,
     blink-caret 1s ease-in-out forwards 2.5s;
@@ -113,7 +112,7 @@ canvas.p5Canvas {
   }
 
   to {
-    width: 100%;
+    width: 99%;
   }
 }
 
@@ -137,8 +136,8 @@ canvas.p5Canvas {
   text-align: center;
 }
 
-.mail{
-    position: relative;
+.mail {
+  position: relative;
 }
 
 .mail a {
@@ -157,7 +156,8 @@ canvas.p5Canvas {
 .mail a:hover {
   background-color: #64ffdb18;
 }
-.mail img{
+
+.mail img {
   position: absolute;
   left: 24px;
   width: 26px;
@@ -177,6 +177,7 @@ canvas.p5Canvas {
   font-size: 38px;
   padding: 10px 0;
 }
+
 .about_me p {
   padding-right: 15px;
 }
@@ -287,7 +288,7 @@ li:nth-child(6) {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1100px;
   padding: 10px 0;
-  
+
 
 }
 
@@ -305,14 +306,15 @@ li:nth-child(6) {
   margin-bottom: 0;
 }
 
-.list .para-1{
+.list .para-1 {
   font-size: 17px;
   line-height: 1.8;
   padding-bottom: 5px;
   letter-spacing: 1px;
 
 }
-.list .para-2{
+
+.list .para-2 {
   font-size: 15px;
   line-height: 1.8;
   padding-bottom: 5px;
@@ -357,135 +359,144 @@ footer {
 
 @media (max-width: 1200px) {
 
-  #container{
+  #container {
     margin: 0 25px;
   }
- 
-  #container li{
+
+  #container li {
     font-size: 14px;
   }
 
-  #container{
+  #container {
     justify-content: center;
     align-items: center;
   }
-  .left{
+
+  .left {
     display: none;
   }
 
-  .nav{
+  .nav {
     justify-content: flex-end;
   }
 
-  .right{
+  .right {
     padding-right: 20px;
   }
 
   canvas.p5Canvas {
-  width: 300px !important;
-  height: 300px !important;
-  top: 25px;
-}
-.heading{
-  max-width: 282px;
-  margin-top: 70px;
+    width: 300px !important;
+    height: 300px !important;
+    top: 25px;
+  }
 
-}
-.heading h1{
-font-size: 38px;
- margin-top: -120px;
- padding-left: 20px;
-}
-.introduction p{
-  padding-bottom: 25px;
-  margin-top: -15px;
-  font-size: 14px;
-}
+  .heading {
+    max-width: 282px;
+    margin-top: 70px;
 
-.introduction{
-  max-width: 390px;
-}
+  }
 
-.mail a {
+  .heading h1 {
+    font-size: 38px;
+    margin-top: -120px;
+    padding-left: 21px;
+  }
+
+  .introduction p {
+    padding-bottom: 25px;
+    margin-top: -15px;
+    font-size: 14px;
+  }
+
+  .introduction {
+    max-width: 390px;
+  }
+
+  .mail a {
     padding: 12px 20px;
     padding-left: 46px;
     font-size: 17px;
-}
+  }
 
-.mail img {
+  .mail img {
     left: 16px;
     width: 24px;
-}
+  }
 
-.about_me h1 {
+  .about_me h1 {
     font-size: 28px;
-    
-}
-.about_me .para {
+
+  }
+
+  .about_me .para {
     font-size: 14px;
-    
-}
+
+  }
 
 
-#about{
-  max-width: 595px;
-  padding-top: 40px;
-}
+  #about {
+    max-width: 595px;
+    padding-top: 40px;
+  }
 
-.photo img {
+  .photo img {
     display: none;
-}
+  }
 
-.underline{
-  display: none;
-}
+  .underline {
+    display: none;
+  }
 
-#exp{
-  max-width: 600px;
-  padding: 0;
-  padding-top: 30px;
-}
-.experience h1{
-  font-size: 28px;
-}
+  #exp {
+    max-width: 600px;
+    padding: 0;
+    padding-top: 30px;
+  }
 
-.experience h3{
-  font-size: 17px;
-}
+  .experience h1 {
+    font-size: 28px;
+  }
 
-.experience p {
+  .experience h3 {
+    font-size: 17px;
+  }
+
+  .experience p {
     padding-right: 10px;
     font-size: 14px;
-}
+  }
 
-#projects{
-  max-width: 600px;
+  #projects {
+    max-width: 600px;
 
-}
-#projects h1{
-  font-size: 28px;
-}
+  }
+
+  #projects h1 {
+    font-size: 28px;
+  }
 
 
-.my-projects{
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-}
+  .my-projects {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
 
-.my-projects .list{
-  margin: 10px 10px;
-}
-.list h3{
-  font-size: 17px;
-}
+  .my-projects .list {
+    margin: 10px 10px;
+  }
 
-.list .para-1{
-  font-size: 14px;
-}
-.list .para-2{
-  font-size: 13px;
-}
+  .list h3 {
+    font-size: 17px;
+  }
+
+  .list .para-1 {
+    font-size: 14px;
+  }
+
+  .list .para-2 {
+    font-size: 13px;
+  }
 
 
 }
