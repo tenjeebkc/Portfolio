@@ -93,6 +93,7 @@ img {
   align-items: center;
   margin-top: 20px;
 }
+
 .introduction,
 .heading {
   max-width: 600px;
@@ -191,7 +192,8 @@ img {
 }
 
 .about_me p {
-  padding-right: 15px;
+  padding-right: 10px;
+  text-align: justify;
 }
 
 
@@ -286,12 +288,13 @@ li:nth-child(8) {
 }
 
 .experience p {
-  padding-right: 75px;
+  padding-right: 10px;
+  text-align: justify;
 }
 
 /* projects */
 #projects {
-  padding-top: 35px;
+  padding-top: 40px;
 
 }
 
@@ -406,12 +409,13 @@ footer {
   canvas.p5Canvas {
     width: 300px !important;
     height: 300px !important;
+   margin-top: 20px;
   }
 
   .heading {
     max-width: 280px;
     max-width: 282px;
-    margin-top: 70px;
+    margin-top: 50px;
   }
 
   .heading h1 {
@@ -447,7 +451,6 @@ footer {
 
   .about_me .para {
     font-size: 14px;
-
   }
 
   #about {
