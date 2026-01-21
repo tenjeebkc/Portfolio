@@ -398,12 +398,16 @@ footer {
   }
 
   .heading {
+<<<<<<< HEAD
     max-width: 280px;
+=======
+    max-width: 282px;
+>>>>>>> 84b978914bb6b2eb625eb0f09d405d449869ac02
     margin-top: 70px;
   }
 
   .heading h1 {
-    font-size: 38px;
+    font-size: 32px;
     margin-top: -120px;
   }
 
